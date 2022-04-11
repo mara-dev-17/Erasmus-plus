@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+$family-primary: "Public Sans", sans-serif;
+
+//color variable
+$yale-blue: #004490ff;
+$french-blue: #0077c8ff;
+$mikado-yellow: #ffc533ff;
+$cultured: #f5f5f5ff;
+
+//variable here
+$primary: $french-blue;
+$link: $mikado-yellow;
+$success: $yale-blue;
+
+$box-radius: 15px;
+$card-radius: 15px;
+$button-radius: 15px;
+
+$tabs-link-active-color: $success;
+
+
+@import "../node_modules/bulma/bulma.sass";
+
+//css here
+div.tile.is-parent {
+    padding: 0.1rem;
+}
+
+#school > .column > a > .card > .card-content {
+    min-height: 130px;
+}
+
+#school > .column > .card > .card-content {
+    min-height: 130px;
+}
+
+.button {
+    border-radius: 10px;
+}
+
+.card-link:hover {
+    .card{
+        transition: all 0.3s;
+        box-shadow: 0 0.5em 4em -0.125em rgba($mikado-yellow, 0.5)
+    }
+}
+
+.card-modal:hover {
+    transition: all 0.3s;
+    box-shadow: 0 0.5em 4em -0.125em rgba($mikado-yellow, 0.5)
+}
+
+.prof {
+    img {
+        transform: translateY(-89px);
+    }
+    p {
+        transform: translateY(-40px);
+    }
+}
+
+.foo {
+    transform: translateY(+20px);
+}
+
+.waves {
+    transform: translateY(-5px);
+}

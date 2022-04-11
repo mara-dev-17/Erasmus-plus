@@ -1,0 +1,25 @@
+{
+  "name": "erasmus-plus",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "@types/jquery": "^3.5.14",
+    "bulma": "^0.9.3",
+    "graphql": "^16.3.0",
+    "mongodb": "4.4",
+    "node-sass": "^7.0.1",
+    "realm-web": "^1.7.0",
+    "svelte": "^3.44.0",
+    "vite": "^2.8.0"
+  }
+}
