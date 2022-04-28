@@ -7857,7 +7857,7 @@ div.tile.is-parent {
   min-height: 130px; }
 
 .button {
-  border-radius: 10px; }
+  border-radius: 10px !important; }
 
 .card-link:hover .card {
   transition: all 0.3s;
@@ -7878,3 +7878,6 @@ div.tile.is-parent {
 
 .waves {
   transform: translateY(-5px); }
+
+.small-text {
+  font-size: 0.60rem !important; }

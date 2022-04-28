@@ -1,6 +1,4 @@
 <script>
-  import { HtmlTag } from "svelte/internal";
-
   let Bari = [
     "https://thumbs2.imgbox.com/fc/d6/vYip2fDi_t.jpg",
     "https://thumbs2.imgbox.com/a9/8d/nixkpLNM_t.jpg",
@@ -69,7 +67,9 @@
           on:click|preventDefault={() => select({ src })}
         >
           <div class="tile is-child is-clickable">
-            <img {src} alt="" />
+            <figure class="image">
+              <img {src} alt="" />
+            </figure>
           </div>
         </div>
       {/each}

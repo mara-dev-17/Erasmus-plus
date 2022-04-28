@@ -38,7 +38,7 @@ div.tile.is-parent {
 }
 
 .button {
-    border-radius: 10px;
+    border-radius: 10px !important;
 }
 
 .card-link:hover {
@@ -68,4 +68,8 @@ div.tile.is-parent {
 
 .waves {
     transform: translateY(-5px);
+}
+
+.small-text {
+    font-size: 0.60rem !important;
 }

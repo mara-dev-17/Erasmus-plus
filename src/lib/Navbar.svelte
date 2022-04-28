@@ -6,7 +6,7 @@
 
   let tabs = [
     { name: "home", icon: "fa-solid fa-home", view: 1 },
-    { name: "projects", icon: "fa-solid fa-diagram-project", view: 2 },
+    { name: "actions", icon: "fa-solid fa-diagram-project", view: 2 },
     { name: "gallery", icon: "fa-solid fa-images", view: 3 },
   ];
 
